@@ -18,13 +18,31 @@ width: 80%;
 height: 175px;
 background: white;
 margin: auto;
+padding-top: 10px;
+padding-left: 5%;
 }
 
 .lorem {
-  font-size: 10px;
+  font-size: 12px;
   height: 50%;
-  width: 80%;
-  border: 1px solid black;
+  width: 90%;
+  /*border: 1px solid black;*/
+}
+
+.red-button {
+  margin-top: 15px;
+  background: red;
+  display: inline-block;
+  width: 25%;
+  color: white;
+}
+
+.blue-button {
+  margin-top: 10px;
+  background: blue;
+  display: inline-block;
+  width: 25%;
+  color: white;
 }
 
 #section2 {
@@ -33,6 +51,28 @@ margin: auto;
   height: 375px;
   background: white;
   margin: 20px auto 0 auto;
+  padding-top: 20px;
+}
+
+.image-box {
+  width: 80%;
+  height: 60%;
+  /*border: 1px solid black;*/
+  margin: 0 auto 0 auto;
+  background: black;
+  color: white;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.lorem2 {
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+font-size: 12px;
+width: 80%;
+height: 30%;
+/*border: 1px solid black;*/
 }
 
 #footer {
@@ -40,4 +80,12 @@ margin: auto;
   height: 50px;
   background: black;
   margin-top: 30px;
+  color: white;
+  padding-left: 70%;
+}
+
+.links {
+  height: 45px;
+  display: inline-block;
+  margin-left: 20px;
 }
